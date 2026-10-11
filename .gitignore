@@ -1,0 +1,44 @@
+
+# =========================
+# Python / Django Backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+
+# Django local database (SQLite only)
+db.sqlite3
+db.sqlite3-journal
+
+# =========================
+# React / JavaScript Frontend
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.idea/
